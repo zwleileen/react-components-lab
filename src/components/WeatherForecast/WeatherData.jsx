@@ -51,3 +51,29 @@ const weatherForecasts = [
   )
 
 }
+
+// Notes: 
+// The map function takes each object from the weatherForecasts array
+// For each object, it creates a WeatherForecast component
+// It passes the object's properties as props to that component
+// Each WeatherForecast component then passes the img and imgAlt to its WeatherIcon component
+
+// The map function creates this:
+// {/* <ul>
+//   <WeatherForecast 
+//     key="Monday"
+//     day="Monday" 
+//     img="sunny.jpg"
+//     imgAlt="Sunny weather"
+//     conditions="Sunny"
+//     time="12:00"
+//   />
+//   <WeatherForecast 
+//     key="Tuesday"
+//     day="Tuesday"
+//     img="rainy.jpg"
+//     imgAlt="Rainy weather"
+//     conditions="Rainy"
+//     time="13:00"
+//   />
+// </ul> */}
