@@ -1,6 +1,4 @@
-import WeatherForecast from './WeatherForecast.jsx'
-
-export default function WeatherIcon() {    
-    return (
-      <WeatherForecast.img src="" alt="" />
-    )}
+export default function WeatherIcon(props) {    
+return (
+    <img src={props.img} alt={props.imgAlt} />
+)}

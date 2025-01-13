@@ -44,7 +44,7 @@ const weatherForecasts = [
     <>
     <ul>
         {weatherForecasts.map((weatherForecast) => (
-            <WeatherForecast key={weatherForecast.day} day={weatherForecast.day} conditions={weatherForecast.conditions} time={weatherForecast.time} />
+            <WeatherForecast key={weatherForecast.day} day={weatherForecast.day} img={weatherForecast.img} imgAlt={weatherForecast.imgAlt} conditions={weatherForecast.conditions} time={weatherForecast.time} />
         ))}
     </ul>
     </>
