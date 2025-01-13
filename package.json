@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "DEBUG=react-components:* vite",
+    "dev": "DEBUG=react-components-lab:* vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

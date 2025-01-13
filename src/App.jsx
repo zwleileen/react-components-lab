@@ -1,13 +1,19 @@
 // src/App.jsx
 import './App.css';
-//? do once in the entire App
-localStorage.debug = "react-components:*";
-
+import WeatherData from './components/WeatherForecast/WeatherData'
+import debug from "debug"
+const log = debug("react-components-lab:App");
+log("debugging")
 
 const App = () => {
 
   return (
-    <h1>Hello world!</h1>
+  <>
+    <h1>Local Weather</h1>
+      <section>
+      <WeatherData/>
+      </section>
+  </>
   );
 }
 
