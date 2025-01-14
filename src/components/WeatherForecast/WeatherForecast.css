@@ -3,10 +3,6 @@ section {
     justify-content: space-between;  
   }
   
-  ul {
-    display: flex;
-  }
-
   section .weather {
     border: 1px solid #ccc;
     /* flex: 1; */
